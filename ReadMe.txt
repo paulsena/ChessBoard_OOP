@@ -2,7 +2,7 @@ C++ Chess Board Framework
 
 Description / Comment
 ===========================================
-This is an implementation of a two player, turn based, chess game that uses OOP concepts covered in Computing III.
+This is an implementation of a two player, turn based, chess game that uses OOP concepts covered in my Computing III from UML.
 The framework is work in progress but mostly fully functional, including
 moving, opening double jumps, attacking diagonal, movement obstacle detection, and board bound checking.
 
