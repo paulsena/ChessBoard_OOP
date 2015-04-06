@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Chess Pieces" projectFiles="true">
+        <itemPath>BasePiece.h</itemPath>
+        <itemPath>Bishop.h</itemPath>
+        <itemPath>King.h</itemPath>
+        <itemPath>Knight.h</itemPath>
+        <itemPath>Pawn.h</itemPath>
+        <itemPath>Queen.h</itemPath>
+        <itemPath>Rook.h</itemPath>
+      </logicalFolder>
+      <itemPath>Board.h</itemPath>
+      <itemPath>Square.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Chess Pieces" projectFiles="true">
+        <itemPath>BasePiece.cpp</itemPath>
+        <itemPath>Bishop.cpp</itemPath>
+        <itemPath>King.cpp</itemPath>
+        <itemPath>Knight.cpp</itemPath>
+        <itemPath>Pawn.cpp</itemPath>
+        <itemPath>Queen.cpp</itemPath>
+        <itemPath>Rook.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>Board.cpp</itemPath>
+      <itemPath>Square.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>ReadMe.txt</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
