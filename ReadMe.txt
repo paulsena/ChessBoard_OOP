@@ -1,12 +1,8 @@
-#--
-#  Project:   Assignment 7
-#  Course:   	91.201 - Computing III
-#  Author:    Paul Senatillaka
-# ++
+C++ Chess Board Framework
 
 Description / Comment
 ===========================================
-This is an implementation of a two player, turn based, chess game that uses concepts covered in Computing III.
+This is an implementation of a two player, turn based, chess game that uses OOP concepts covered in Computing III.
 Note that just the pawn movement is implemented. However they are fully functional, including
 moving, opening double jumps, attacking diagonal, movement obstacle detection, and board bound checking.
 
