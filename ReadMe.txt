@@ -3,13 +3,12 @@ C++ Chess Board Framework
 Description / Comment
 ===========================================
 This is an implementation of a two player, turn based, chess game that uses OOP concepts covered in Computing III.
-Note that just the pawn movement is implemented. However they are fully functional, including
+The framework is work in progress but mostly fully functional, including
 moving, opening double jumps, attacking diagonal, movement obstacle detection, and board bound checking.
 
-Much work went into setting up the chess framework, and as this was a time limited assigment, I wasn't
-able writeup the rest of the chess piece move functionality. However, some strong OOP
+Just the pawn piece is fully implemented. However, some strong OOP
 concepts were implemented, so new piece movement can be implemented very easily by filling out
-one abstract function, ValidateMove(Position newPos), in the derived class. 
+one abstract function, ValidateMove(Position newPos), in the derived classes for other pieces. 
 
 Features:
   - Intro screen
